@@ -4,9 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Launch Game</title>
+    <title>Launching Game...</title>
+    <script type="text/javascript">
+        function redirectToSteam() {
+            window.location.href = "steam://launch/379430";
+        }
+        window.onload = redirectToSteam;
+    </script>
 </head>
 <body>
-    <a href="steam://launch/379430">Launch the Game</a>
+    <h1>Launching Game...</h1>
+    <p>If the game does not launch automatically, <a href="steam://launch/379430">click here to launch it</a>.</p>
 </body>
 </html>
